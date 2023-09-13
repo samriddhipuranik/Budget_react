@@ -1,0 +1,73 @@
+.App{
+    font-family: sans-sans-serif;
+    text-align: center;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    overflow-x: hidden;
+    height: 100vw;
+}
+.lighter-grey{
+    background-color: lightgrey;
+
+}
+.light-grey{
+    background-color: #1b1a1d;
+}
+.grey{
+    background-color: #1a1c1e;
+}
+.red{
+    background-color: #ac3639;
+}
+.green{
+    background-color: #83c17f;
+}
+body{
+    margin: 0px;
+    height: 100%;
+    background-color: rgb(21, 21, 21);
+    color: white;
+}
+.balance-review-container{
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    text-align: left;
+}
+.balance-info{
+    width: 50%;
+}
+.buttons-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.buttons-wrapper button{
+    color: white;
+    border: none;
+    padding: 15px 40px 15px 40px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.transaction-form{
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.transaction-form button{
+    background-color: rgba(98, 0, 255, 0.788);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.transaction-form input{
+    border-radius: 10px;
+    border: none;
+    padding: 20px 10px 20px 10px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
