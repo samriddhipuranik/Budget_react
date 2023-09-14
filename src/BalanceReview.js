@@ -18,7 +18,7 @@ const BalanceReview = ({currency}) => {
                 default:
                     break;
         }
-        balancefromContext.updatedBalance(updatedBalance);
+        balancefromContext.updateBalance(updatedBalance);
         setModalOpen("");
     }
     return(
